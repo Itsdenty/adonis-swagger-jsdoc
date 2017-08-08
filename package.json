@@ -1,0 +1,32 @@
+{
+"name": "adonis-swagger-jsdoc",
+"version": "0.0.1",
+"description": "This is an Adonis js wrapper for swagger-jsdoc",
+"main": "./lib/index.js",
+"repository": {
+"type": "git",
+"url": "https://github.com/codeforgeek/nodecalc"
+},
+"keywords": [
+"sweet-lstat"
+],
+"author": {
+"name": "Shahid Shaikh"
+},
+"readme": "# Add two numbers (for learning purpose)nnDemo module for codeforgeek.com tutorialnn## Installnn npm install nodecalcnnn## APInn### -calc(a,b,p) n where, n a=number,nb=number,p=operator",
+"readmeFilename": "README.md",
+"dependencies": {},
+"devDependencies": {},
+"optionalDependencies": {},
+"engines": {
+"node": "*"
+},
+"bugs": {
+"url": "https://github.com/codeforgeek/nodecalc/issues"
+},
+"homepage": "https://github.com/codeforgeek/nodecalc",
+"_id": "nodecalc@0.0.1",
+"scripts": {},
+"_shasum": "db9a913c2f8893d477472647917493f2c0949adb",
+"_from": "nodecalc@"
+}
