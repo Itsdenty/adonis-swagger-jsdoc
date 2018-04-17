@@ -205,4 +205,4 @@ $ npm install
 $ npm start
 ```
 
-The swagger spec will be served at http://localhost:3000/api-docs.json
+The swagger spec will be served at http://localhost:3000/swagger.json
