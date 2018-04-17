@@ -1,6 +1,7 @@
 # swagger-jsdoc
 
 **swagger-jsdoc** enables to integrate [Swagger](http://swagger.io) using JSDoc. This is a wrapper package that allows you to use the package the adonis way.
+The package has been updated to support the latest adonisjs 4.1
 
 
 ## Supported Swagger Versions
@@ -19,7 +20,7 @@ swagger-jsdoc returns the validated swagger specification as JSON.
 register adonis-swagger-jsdoc inside app.js file inside the bootstrap folder in the root of your application using the following code inside the providers json
 
 ```javascript
-'addonis-swagger-jsdoc/providers/SwaggerjsdocProvider', 
+'adonis-swagger-jsdoc/providers/SwaggerjsdocProvider', 
 ```
 and also placing the following code inside the alias of provider.json
 
@@ -50,7 +51,7 @@ At this time you can do with the swaggerSpec whatever you want.
 The simplest way would be serving it straight to the outside world:
 
 ```javascript
-app.get('/api-docs.json', function(req, res) {
+app.get('/swagger.json', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
   res.send(swaggerSpec);
 });

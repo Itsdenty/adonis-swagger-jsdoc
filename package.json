@@ -1,32 +1,46 @@
 {
 "name": "adonis-swagger-jsdoc",
-"version": "0.0.1",
+"version": "1.0.0",
 "description": "This is an Adonis js wrapper for swagger-jsdoc",
 "main": "./lib/index.js",
 "repository": {
 "type": "git",
-"url": "https://github.com/codeforgeek/nodecalc"
+"url": "https://github.com/Itsdenty/adonis-swagger-jsdoc.git"
 },
 "keywords": [
-"sweet-lstat"
+"adonis",
+"express",
+"node js",
+"swagger",
+"api",
+"documentation",
+"jsdoc"
 ],
 "author": {
-"name": "Shahid Shaikh"
+"name": "Abd-afeez Abd-hamid"
 },
-"readme": "# Add two numbers (for learning purpose)nnDemo module for codeforgeek.com tutorialnn## Installnn npm install nodecalcnnn## APInn### -calc(a,b,p) n where, n a=number,nb=number,p=operator",
+"readme": "# A simple adonisjs wrapper for swagger-jsdoc for documenting api",
 "readmeFilename": "README.md",
-"dependencies": {},
+"dependencies": {
+    "chokidar": "^1.7.0",
+    "commander": "^2.11.0",
+    "doctrine": "^2.0.0",
+    "glob": "^7.1.2",
+    "js-yaml": "^3.8.4",
+    "recursive-iterator": "^2.0.3",
+    "swagger-parser": "^3.4.1"
+},
 "devDependencies": {},
 "optionalDependencies": {},
 "engines": {
 "node": "*"
 },
 "bugs": {
-"url": "https://github.com/codeforgeek/nodecalc/issues"
+"url": "https://github.com/Itsdenty/adonis-swagger-jsdoc/issues"
 },
-"homepage": "https://github.com/codeforgeek/nodecalc",
-"_id": "nodecalc@0.0.1",
+"homepage": "https://github.com/Itsdenty/adonis-swagger-jsdoc",
+"_id": "adonis-swagger-jsdoc@1.0.0",
 "scripts": {},
 "_shasum": "db9a913c2f8893d477472647917493f2c0949adb",
-"_from": "nodecalc@"
+"_from": "adonis-swagger-jsdoc@"
 }
